@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Welche Badelatschen soll ich kaufen?</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-badge">
+        <span class="live-dot"></span>
+        Community-Abstimmung
+      </div>
+
+      <h1>Welche <span>Badelatschen</span><br> soll ich kaufen?</h1>
+
+      <p class="hero-text">
+        Schau dir alle sieben Modelle an und stimme für deinen Favoriten ab.
+        Die Badelatschen mit den meisten Stimmen gewinnt.
+      </p>
+
+      <div class="stats">
+        <div class="stat-card">
+          <strong>7</strong>
+          <span>Modelle</span>
+        </div>
+
+        <div class="stat-card">
+          <strong id="totalVotes">0</strong>
+          <span>Stimmen</span>
+        </div>
+
+        <div class="stat-card">
+          <strong id="leaderName">–</strong>
+          <span>Führend</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="selection-section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Deine Entscheidung</p>
+          <h2>Wähle deinen Favoriten</h2>
+        </div>
+
+        <p class="vote-note" id="voteNote">
+          Pro Browser ist eine Stimme möglich.
+        </p>
+      </div>
+
+      <div class="slipper-grid">
+
+        <!-- 01 LACOSTE -->
+        <article class="slipper-card" data-id="1" data-name="Lacoste Slides Serve 1.0">
+          <div class="product-image">
+            <span class="number">01</span>
+            <img src="bilder/lacoste-serve-1.jpg" alt="Lacoste Slides Serve 1.0 in Weiß">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">Lacoste</span>
+            <h3>Slides Serve 1.0</h3>
+
+            <p>
+              Cleane weiße Slides mit Lacoste-Logo. Perfekt für Urlaub,
+              Schwimmbad und helle Sommer-Outfits.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 60,00 €</span>
+              <strong>44,99 €</strong>
+              <span class="sale">-25 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40833517-007&colorCode=001296417"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 19V69 SCHWARZ -->
+        <article class="slipper-card" data-id="2" data-name="19V69 ITALIA Slides Yael Schwarz">
+          <div class="product-image">
+            <span class="number">02</span>
+            <img src="bilder/19v69-yael-schwarz.jpg" alt="Schwarze 19V69 ITALIA Slides Yael">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">19V69 ITALIA</span>
+            <h3>Slides Yael – Schwarz</h3>
+
+            <p>
+              Schwarze Slides mit großem, geprägtem 19V69-Logo.
+              Markant, sportlich und zu fast allem kombinierbar.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 59,99 €</span>
+              <strong>39,99 €</strong>
+              <span class="sale">-33 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40733133-004&colorCode=001147274"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 19V69 OLIV -->
+        <article class="slipper-card" data-id="3" data-name="19V69 ITALIA Slides Yael Oliv">
+          <div class="product-image">
+            <span class="number">03</span>
+            <img src="bilder/19v69-yael-oliv.jpg" alt="Olivfarbene 19V69 ITALIA Slides Yael">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">19V69 ITALIA</span>
+            <h3>Slides Yael – Oliv</h3>
+
+            <p>
+              Khaki- beziehungsweise olivfarbene Slides mit geprägtem
+              Logo-Design. Besonders, aber trotzdem gut kombinierbar.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 59,99 €</span>
+              <strong>29,99 €</strong>
+              <span class="sale">-50 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40733133-017&colorCode=001466615"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 19V69 HELLBLAU -->
+        <article class="slipper-card" data-id="4" data-name="19V69 ITALIA Slides Jade Hellblau">
+          <div class="product-image">
+            <span class="number">04</span>
+            <img src="bilder/19v69-jade-hellblau.jpg" alt="Hellblaue 19V69 ITALIA Slides Jade">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">19V69 ITALIA</span>
+            <h3>Slides Jade – Hellblau</h3>
+
+            <p>
+              Hellblaue Slides mit geprägtem Riemen. Ein auffälliger,
+              frischer Sommer-Look für Urlaub und Schwimmbad.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 59,90 €</span>
+              <strong>27,99 €</strong>
+              <span class="sale">-53 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40318797-004&colorCode=000508396"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 CALVIN KLEIN -->
+        <article class="slipper-card" data-id="5" data-name="Calvin Klein Slides Schwarz">
+          <div class="product-image">
+            <span class="number">05</span>
+            <img src="bilder/calvin-klein-slides-schwarz.jpg" alt="Schwarze Calvin Klein Slides">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">Calvin Klein</span>
+            <h3>Slides – Schwarz</h3>
+
+            <p>
+              Minimalistische schwarze Slides mit weißem Calvin-Klein-Logo.
+              Clean, hochwertig und universell tragbar.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 44,90 €</span>
+              <strong>34,99 €</strong>
+              <span class="sale">-22 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40900107-004&colorCode=001393707"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 06 JOOP -->
+        <article class="slipper-card" data-id="6" data-name="JOOP! Badeschuhe Dunkelblau">
+          <div class="product-image">
+            <span class="number">06</span>
+            <img src="bilder/joop-badeschuhe-dunkelblau.jpg" alt="Dunkelblaue JOOP Badeschuhe">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">JOOP!</span>
+            <h3>Badeschuhe – Dunkelblau</h3>
+
+            <p>
+              Dunkelblaue Slides mit feinem JOOP!-Allover-Muster auf dem
+              Riemen. Elegant, auffällig und trotzdem nicht übertrieben.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 49,95 €</span>
+              <strong>37,99 €</strong>
+              <span class="sale">-24 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40753806-004&colorCode=001175645"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 07 GUESS -->
+        <article class="slipper-card" data-id="7" data-name="GUESS Slides Tokyo Schwarz">
+          <div class="product-image">
+            <span class="number">07</span>
+            <img src="bilder/guess-tokyo-schwarz.jpg" alt="Schwarze GUESS Slides Tokyo">
+          </div>
+
+          <div class="card-content">
+            <span class="brand">GUESS</span>
+            <h3>Slides Tokyo – Schwarz</h3>
+
+            <p>
+              Komplett schwarze GUESS Slides mit dezentem Logo. Die
+              unauffälligste und cleanste Wahl der gesamten Auswahl.
+            </p>
+
+            <div class="price-row">
+              <span class="old-price">UVP 45,00 €</span>
+              <strong>34,99 €</strong>
+              <span class="sale">-22 %</span>
+            </div>
+
+            <div class="votes">
+              <span><strong class="count">0</strong> Stimmen</span>
+            </div>
+
+            <div class="actions">
+              <a
+                class="btn btn-outline"
+                href="https://www.bestsecret.com/product.htm?code=40428383-002&colorCode=000677662"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ansehen
+              </a>
+
+              <button class="btn btn-vote">Abstimmen</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="winner-box" id="winnerBox">
+        <span>🏆</span>
+        <p>Noch keine Stimme vorhanden. Sei die erste Person, die entscheidet.</p>
+      </div>
+
+      <button class="reset-button" id="resetButton">
+        Eigene Test-Stimme zurücksetzen
+      </button>
+    </section>
+
+    <footer>
+      Die Abstimmung wird aktuell im Browser gespeichert. Für echte gemeinsame
+      Votes mit Freunden brauchst du später ein Backend mit Datenbank.
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
